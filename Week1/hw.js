@@ -28,7 +28,7 @@ console.log(FirstExample);
 
 //functions
 const newFunc = () => {
-   console.log("Hello");
+  console.log("Hello");
 };
 FirstExample.changeColor("blue");
 console.log(FirstExample.color); //blue
@@ -47,8 +47,8 @@ console.log(refName); //Lebron
 //////////////////////////////////////////////////////////////
 //creating a ref to a ref value
 let bmw = {
-   type: "car",
-   name: "116d",
+  type: "car",
+  name: "116d",
 };
 
 let mercedes = bmw;
@@ -68,13 +68,13 @@ console.log(first === second); //true
 
 //reference
 const one = {
-   type: "Car",
-   color: "Blue",
+  type: "Car",
+  color: "Blue",
 };
 
 const two = {
-   type: "Car",
-   color: "Blue",
+  type: "Car",
+  color: "Blue",
 };
 console.log(one === two); //false
 
